@@ -1,3 +1,24 @@
+======================== Shaina ETU004733 ==============================
+
+- **CE QUE J'AI MAINTENANT COMPRIS** :
+    - ***Fonction.php** :
+        - Prendre tous les departements sauf le departement actuel ou se trouve l'employee en utilisant <>
+        - CONCAT : pour tout de suite concatener deux colonnes, on utilise cette fonction
+        - DATEDIFF
+
+- **CE QUE JE N'ARRIVE PAS A COMPRENDRE** :
+    - ***Fonction.php** :
+        - INNER JOIN : je n'ai pas bien compris a quoi il sert
+        - %%%s%%
+        -  $where = empty($conditions) ? '1=1' : implode(' AND ', $conditions);
+    
+    - urlencode
+    - htmlspecialchars
+    - trim
+    - $nb_pages = (int)ceil($total / $par_page)
+    - $results   = $submitted ? search_employees($dept_no, $name, $age_min, $age_max) : array()
+    - FOREIGN KEY (emp_no)  REFERENCES employees   (emp_no)  ON DELETE CASCADE
+ 
 ======================== Andry ETU 004732 ==============================
 
 inc 
